@@ -55,6 +55,12 @@ form input {
     margin: 0 auto;
 }
 
+.work {
+    margin: 0 auto;
+    height: 450px;
+    width: 80%;
+}
+
 @media (max-width: 960px) {
     .left-panel {       
         
