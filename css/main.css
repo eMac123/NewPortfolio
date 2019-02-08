@@ -60,25 +60,36 @@ form input {
     margin: 0 auto;
 }
 
+/* PROJECTS SECTION*/
+    .firstProject {
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
 .work.nr1 {
     width: 250px;
     height: 150px; 
-    border: 1px solid pink;
     background: #fff;
 }
 
-.firstProject {
+
+.secondProject {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     text-align: center;
     font-size: 1.3rem;
 }
 
-.work-container.firstProject:hover {
-    opacity: 0.8;
+.work.nr2 {
+    width: 250px;
+    height: 150px;
+    background: #000;
 }
 
 
+/* PROJECTS SECTION THE END*/
 
 @media (max-width: 960px) {
     .left-panel {               
