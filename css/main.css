@@ -61,6 +61,14 @@ form input {
 }
 
 /* PROJECTS SECTION*/
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
     .firstProject {
         text-decoration: none;
         color: #000;
