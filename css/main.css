@@ -7,9 +7,14 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: 'Bree Serif',
+    serif;
 }
 
-
+.container {
+    width: 100%;
+    height: 100%;
+}
 
 .left-panel {
     position: relative;
@@ -18,7 +23,6 @@ html, body {
     width: 50%;
     height: 948px;
     background: #000;
-    font-family: 'Bree Serif', serif;
     font-size: 1.4rem;
 }
 
@@ -37,6 +41,7 @@ html, body {
     background: #569845;
     width: 50%;
     height: 948px;
+    
 }
 
 form {
@@ -55,27 +60,33 @@ form input {
     margin: 0 auto;
 }
 
-.work {
-    margin: 0 auto;
-    height: 450px;
-    width: 80%;
+.work.nr1 {
+    width: 250px;
+    height: 150px; 
+    border: 1px solid pink;
+    background: #fff;
 }
 
-.work.nr1 {
-    height: 250px;
-    width: 250px;
-    border: 1px solid pink;
+.firstProject {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 1.3rem;
 }
+
+.work-container.firstProject:hover {
+    opacity: 0.8;
+}
+
+
 
 @media (max-width: 960px) {
-    .left-panel {       
-        
+    .left-panel {               
         width: 100%;
         height: 100%;
     }
 
-    .right-panel {
-        
+    .right-panel {        
         width: 100%;
         height: 948px;
     }
