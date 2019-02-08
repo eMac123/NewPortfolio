@@ -61,6 +61,12 @@ form input {
     width: 80%;
 }
 
+.work.nr1 {
+    height: 250px;
+    width: 250px;
+    border: 1px solid pink;
+}
+
 @media (max-width: 960px) {
     .left-panel {       
         
